@@ -50,7 +50,7 @@ public class InventoryManager {
     		}
     	}
     
-//    This will only print if the loop fnishes without finding the ID
+//    This will only print if the loop finishes without finding the ID
     System.out.println("Error: Product ID not found");
 
     
