@@ -1,4 +1,4 @@
-import java.util.*; // 👈 Step A: Import Scanner to read keyboard inputs
+import java.util.*; //  Step A: Import Scanner to read keyboard inputs
 public class Main {
 
 	public static void main(String[] args) {
@@ -10,13 +10,13 @@ public class Main {
 		        
 		        System.out.println("=== Welcome to Smart Inventory & Billing System ===");
 		        
-		        while (true) { // 👈 Keeps the menu running in a continuous loop
+		        while (true) { //  Keeps the menu running in a continuous loop
 		            System.out.println("\n--- Dashboard Menu ---");
 		            System.out.println("1. Add New Product");
 		            System.out.println("2. View Current Stock");
 		            System.out.println("3. Create Customer Bill (Sell)");
 		            System.out.println("4. Shut Down System");
-		            System.out.print("👉 Enter choice (1-4): ");
+		            System.out.print(" Enter choice (1-4): ");
 		            
 		            int choice = scanner.nextInt();
 		            
@@ -60,7 +60,7 @@ public class Main {
 		                    return; // Terminates the entire program loop execution
 		                    
 		                default:
-		                    System.out.println("❌ Invalid selection! Please enter a number between 1 and 4.");
+		                    System.out.println(" Invalid selection! Please enter a number between 1 and 4.");
 		            }
 		        }
 		    
