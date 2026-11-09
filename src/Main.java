@@ -55,7 +55,7 @@ public class Main {
 		                    break;
 		                    
 		                case 4:
-		                    System.out.println("🔌 Shutting down system. Thank you for using!");
+		                    System.out.println(" Shutting down system. Thank you for using!");
 		                    scanner.close(); // Close scanner to free memory resources
 		                    return; // Terminates the entire program loop execution
 		                    
